@@ -1,0 +1,13 @@
+{
+  "name": "six-yao",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev:fe": "npm run dev --workspace frontend",
+    "dev:be": "npm run dev --workspace backend"
+  }
+}
